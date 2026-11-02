@@ -2,7 +2,9 @@
 
 Préparé le 2026-08-25. Ordre de dépôt et libellé à saisir pour chaque fichier.
 
-Revue cible : **à confirmer**. Archives of Microbiology a été écartée le 2026-08-25 :
+Revue cible (mise à jour 2026-11-02) : **Journal of Molecular Evolution**, voie abonnement sans frais d'auteur, soumission par SNAPP. Titre, résumé brut, archive source et lettre d'accompagnement régénérés le 2026-11-02 sur le manuscrit recadré. Les passages ci-dessous datés d'août 2026 (nombre de pages, nomenclature « Supplementary ») sont remplacés par la section 5 « Online Resource ».
+
+Ancienne mention, août 2026 : revue cible **à confirmer**. Archives of Microbiology a été écartée le 2026-08-25 :
 le brouillon Snapp `530bf3c9-e9b3-4911-94f5-77b916fec16e` ouvert sur ce titre porte le
 manuscrit Rv3222c, et envoyer deux dossiers du même auteur à la même revue reproduirait
 la concentration qui a valu deux refus de bureau au Journal of Bacteriology en août.
@@ -15,7 +17,7 @@ Le portail demande, pour chaque fichier, un type et une légende. Les voici, pr�
 | Fichier | Type | Légende |
 |---|---|---|
 | `main.pdf` | Manuscript | A conserved cysteine–histidine–glutamate metal site identifies DUF501 (Rv1025), an essential uncharacterised protein family of *Mycobacterium tuberculosis*, as a candidate metalloenzyme and drug target |
-| `submission/rv1025_source.zip` | LaTeX source | main.tex, references.bib, main.bbl et les trois figures, 2,8 Mo — à déposer si le portail demande les sources compilables plutôt qu'un PDF |
+| `submission/rv1025_source.zip` | LaTeX source | (régénéré le 2026-11-02, compile seul : 20 pages) main.tex, references.bib, main.bbl, sn-basic.bst et les quatre figures du texte, 3,2 Mo — à déposer si le portail demande les sources compilables plutôt qu'un PDF |
 
 17 pages, figures incluses, recompilée le 2026-08-25 après ajout des quatre renvois
 manquants aux tables supplémentaires. Zéro erreur, zéro citation non résolue.
@@ -67,7 +69,8 @@ Le dépôt comprend donc l'ensemble des treize fichiers supplémentaires.
 
 | Fichier | Type | Remarque |
 |---|---|---|
-| `submission/cover_letter.txt` | Cover letter | 429 mots. ATTENTION : elle est adressée à Archives of Microbiology et cite la revue deux fois. À réadresser à la revue retenue avant dépôt |
+| `submission/cover_letter_jme.txt` | Cover letter | Lettre pour Journal of Molecular Evolution, rédigée le 2026-11-02. Elle annonce le préprint bioRxiv, le Zenodo et le refus antérieur d'une autre revue ; à relire par CG avant dépôt |
+| `submission/cover_letter.txt` | ne pas déposer | Adressée à Archives of Microbiology, caduque |
 | `main_fr.tex` et `main_fr.pdf` | ne pas déposer | Version française, pour l'archive du projet, sans destinataire chez l'éditeur |
 
 ## 5. Correspondance avec la nomenclature « Online Resource » (Journal of Molecular Evolution, 2026-11-02)

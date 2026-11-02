@@ -1,0 +1,15 @@
+Dear Editor,
+
+Please find enclosed the manuscript "A strictly conserved cysteine-histidine-glutamate metal site defines the bacterial family DUF501: evolutionary inference of function for a protein family with no structural relative", which I submit as a Research Article to the Journal of Molecular Evolution.
+
+DUF501 (Pfam PF04417) is a bacterial family of 4,370 proteins with no Gene Ontology term and no solved structure. A Foldseek search of the AlphaFold model of its Mycobacterium tuberculosis member Rv1025 finds no structural relative, so annotation cannot be transferred by homology, and the manuscript asks what the record of selection inside the family can say instead. A cysteine-histidine-glutamate triad (Cys113, His115, Glu59 in Rv1025) is occupied in all 1,472 near-complete bacterial sequences of the Pfam alignment, with no non-conservative substitution among the 2,228 sequences examined. On the predicted structure the three side chains converge on one point at coordination distance, holo AlphaFold3 places a divalent metal there, and an independent backbone-geometry predictor recovers the same site. In the eukaryotic branch, three of 102 members have lost the cysteine-histidine pair and kept the glutamate; a maximum-likelihood tree of 363 representatives places these losses in one or two events and does not decide between them. The loss counts were audited at the level of whole proteins, because eight of eleven apparent losses at the level of alignment segments came from the profile splitting one domain into two segments.
+
+The work is computational, and the manuscript states that its conclusions support a metal-binding hypothesis without proving metal occupancy. I submit it to the Journal of Molecular Evolution because its question, the inference of function from patterns of conservation, synteny and loss across a protein family, falls within the molecular evolutionary inference the journal covers.
+
+A preprint of the study is available on bioRxiv (DOI 10.64898/2026.08.31.746906), and an archive of the analysis code is deposited on Zenodo (DOI 10.5281/zenodo.22025970). An earlier version of the manuscript was considered by another journal and was not retained; the present version was rewritten around family-wide conservation and adds the family tree. The manuscript is not under consideration elsewhere. I have no competing interests to declare, and the use of generative AI tools in the computational workflow and the writing is disclosed in the Statements and Declarations section.
+
+Sincerely,
+
+Christophe Guyeux
+FEMTO-ST Institute, UMR 6174 CNRS, Universite Marie et Louis Pasteur, Besancon, France
+christophe.guyeux@univ-fcomte.fr

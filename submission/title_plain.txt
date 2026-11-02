@@ -1,1 +1,1 @@
-A conserved cysteine-histidine-glutamate metal site identifies DUF501 (Rv1025), an essential uncharacterised protein family of Mycobacterium tuberculosis, as a candidate metalloenzyme and drug target
+A strictly conserved cysteine-histidine-glutamate metal site defines the bacterial family DUF501: evolutionary inference of function for a protein family with no structural relative
