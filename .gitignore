@@ -17,3 +17,5 @@ main.pdf
 .DS_Store
 *.swp
 *.swo
+submission/cover_letter*
+review/
