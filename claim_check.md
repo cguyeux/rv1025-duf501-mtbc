@@ -82,6 +82,7 @@ Quatre défauts corrigés (18, 24, 25 et la nature du nombre 2 228), dans `main.
 | 35 | Méthodes | seuil de quasi-complétude 112 résidus (90 % de la médiane 124) | confirmé | même seuil que `phase29` (111,6) ; médiane lue sur l'alignement |
 | 36 | Références | Minh 2020, Kalyaanamoorthy 2017, Hoang 2018, Guindon 2010, Minh 2021, Fitch 1971 | confirmé | métadonnées lues sur Crossref le 2026-11-02 (titres, volumes, pages, DOI) |
 
-Limite assumée : le jeu réduit garde d'office tous les eucaryotes, toutes les séquences sans triade complète et l'ancre, il n'est donc pas un échantillon de la famille ; le nombre d'événements décrit cet échantillon, il n'estime pas un taux de perte. L'arbre complet (2 142 séquences) n'a pas été inféré (sous-déterminé, 129 sites).
 | 37 | Résumé | « in one or two events on a family tree » (trois pertes eucaryotes) | confirmé | lignes 33 et 34 ci-dessus ; résumé de 246 mots, borne 250 |
 | 38 | Discussion | 0,18 site par branche, clade de cinq feuilles, ufboot 62 %, SH-aLRT 0 %, pas de datation ni de test de sélection relâchée | confirmé | lignes 31 et 33 ci-dessus |
+
+Limite assumée : le jeu réduit garde d'office tous les eucaryotes, toutes les séquences sans triade complète et l'ancre, il n'est donc pas un échantillon de la famille ; le nombre d'événements décrit cet échantillon, il n'estime pas un taux de perte. L'arbre complet (2 142 séquences) n'a pas été inféré (sous-déterminé, 129 sites).
