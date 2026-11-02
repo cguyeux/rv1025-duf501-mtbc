@@ -85,4 +85,6 @@ Quatre défauts corrigés (18, 24, 25 et la nature du nombre 2 228), dans `main.
 | 37 | Résumé | « in one or two events on a family tree » (trois pertes eucaryotes) | confirmé | lignes 33 et 34 ci-dessus ; résumé de 246 mots, borne 250 |
 | 38 | Discussion | 0,18 site par branche, clade de cinq feuilles, ufboot 62 %, SH-aLRT 0 %, pas de datation ni de test de sélection relâchée | confirmé | lignes 31 et 33 ci-dessus |
 
+| 39 | (point resté non recoupé en AA.7) | effectif efficace de Henikoff 2 599 sur 8 700 séquences, redondance 3,3 | confirmé | `phase25_conservation_weighted.py` relancé le 2026-11-02 (3 s), sortie `conservation_weighted.tsv` identique octet pour octet, log dans `résultats/phase25_neff.log` ; le chiffre n'est pas cité dans le manuscrit |
+
 Limite assumée : le jeu réduit garde d'office tous les eucaryotes, toutes les séquences sans triade complète et l'ancre, il n'est donc pas un échantillon de la famille ; le nombre d'événements décrit cet échantillon, il n'estime pas un taux de perte. L'arbre complet (2 142 séquences) n'a pas été inféré (sous-déterminé, 129 sites).
