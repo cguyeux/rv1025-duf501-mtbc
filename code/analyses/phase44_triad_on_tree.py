@@ -30,6 +30,8 @@ import dendropy
 
 PROJ = Path(__file__).resolve().parent.parent
 META = PROJ / "résultats" / "phase40_tree" / "leaf_metadata.tsv"
+STO = PROJ / "data" / "PF04417_full.sto"
+NEAR_COMPLETE = 0.90   # seuil de quasi-complétude, identique à phase29 (90 % de la médiane)
 OUTDIR = PROJ / "résultats" / "phase44_tree_states"
 
 
@@ -47,6 +49,20 @@ def protein_motif(segs: list[dict]) -> str:
     return "".join(out)
 
 
+def aligned_lengths() -> dict[str, int]:
+    """Résidus alignés (hors gaps) de chaque segment de l'alignement Pfam."""
+    out = {}
+    for line in STO.open():
+        if line.startswith(("#", "//")) or not line.strip():
+            continue
+        name, seq = line.split(None, 1)
+        out[name] = sum(1 for ch in seq.strip() if ch not in "-.")
+    return out
+
+
+WILD = {"complet", "perdu"}   # état « manquant » : compatible avec les deux
+
+
 def fitch(tree: dendropy.Tree, states: dict[str, str]) -> tuple[int, dict]:
     """Nombre minimal de changements (Fitch, arbre non racine via un passage ascendant
     sur l'arbre tel qu'il est lu ; le score ne depend pas du choix de la racine)."""
@@ -55,7 +71,8 @@ def fitch(tree: dendropy.Tree, states: dict[str, str]) -> tuple[int, dict]:
     for node in tree.postorder_node_iter():
         if node.is_leaf():
             lab = node.taxon.label.replace(" ", "_")
-            sets[id(node)] = {states[lab]}
+            st = states[lab]
+            sets[id(node)] = set(WILD) if st == "manquant" else {st}
         else:
             kids = [sets[id(c)] for c in node.child_node_iter()]
             inter = set.intersection(*kids)
@@ -86,15 +103,34 @@ def main() -> int:
     if missing:
         raise SystemExit(f"{len(missing)} feuilles absentes de la table : {missing[:5]}")
 
-    seg_state, prot_state = {}, {}
+    alen = aligned_lengths()
+    tri = sorted(alen[r["pfam_name"]] for r in rows if r["triade_stricte"] == "oui")
+    m = len(tri)
+    mediane = tri[m // 2] if m % 2 else (tri[m // 2 - 1] + tri[m // 2]) / 2
+    seuil = NEAR_COMPLETE * mediane
+
+    # trois états au niveau de la PROTEINE : complet ; perdu = site incomplet sur une protéine
+    # quasi complète (au moins un segment aligné >= seuil) ; manquant = site incomplet sur une
+    # protéine dont le domaine n'est couvert que partiellement (fragment, donnée manquante).
+    seg_state, prot2, prot_state = {}, {}, {}
     for l in leaves:
         r = byname[l]
         seg_state[l] = "complet" if r["motif"] == "ECH" else "incomplet"
         pm = protein_motif(byacc[r["accession"]])
-        prot_state[l] = "complet" if pm == "ECH" else "incomplet"
+        prot2[l] = "complet" if pm == "ECH" else "incomplet"
+        if pm == "ECH":
+            prot_state[l] = "complet"
+        else:
+            nc = max(alen[x["pfam_name"]] for x in byacc[r["accession"]]) >= seuil
+            prot_state[l] = "perdu" if nc else "manquant"
 
     n_seg, _ = fitch(tree, seg_state)
+    n_prot2, _ = fitch(tree, prot2)
     n_prot, sets = fitch(tree, prot_state)
+    pdm = tree.phylogenetic_distance_matrix()
+    lost = [l for l in leaves if prot_state[l] == "perdu"]
+    tax = {n.taxon.label.replace(" ", "_"): n.taxon for n in tree.leaf_node_iter()}
+    topo = {(a, b): pdm.path_edge_count(tax[a], tax[b]) for a in lost for b in lost if a < b}
 
     report = [
         f"Arbre : {treefile}",
@@ -102,19 +138,25 @@ def main() -> int:
         "",
         "=== Caractere : etat du site ===",
         f"  par SEGMENT aligne   : {Counter(seg_state.values())}",
-        f"  par PROTEINE (union) : {Counter(prot_state.values())}",
+        f"  par PROTEINE, 2 etats (union des segments)  : {Counter(prot2.values())}",
+        f"  par PROTEINE, 3 etats (complet/perdu/manquant) : {Counter(prot_state.values())}",
+        f"  seuil de quasi-completude : {seuil:.1f} residus alignes ({NEAR_COMPLETE:.0%} de la mediane {mediane} des membres a triade)",
         "",
         "=== Nombre MINIMAL de changements (parsimonie de Fitch) ===",
-        f"  caractere par segment  : {n_seg} changements",
-        f"  caractere par proteine : {n_prot} changements  <-- le seul defendable",
+        f"  segment, 2 etats                 : {n_seg} changements  (artefact de segmentation)",
+        f"  proteine, 2 etats                : {n_prot2} changements  (compte les fragments comme des pertes)",
+        f"  proteine, 3 etats, manquant = ?  : {n_prot} changements  <-- le seul defendable",
         "",
-        "Lecture : l'ecart entre les deux comptages est le nombre d'evenements que la",
-        "segmentation du HMM fabrique si l'on cartographie l'etat du segment au lieu de",
-        "l'etat de la proteine.",
+        "Lecture : les deux premiers comptages fabriquent des evenements, le premier par la",
+        "segmentation du HMM, le second en confondant donnee manquante et perte. Le dernier ne",
+        "retient que les proteines quasi completes dont le site est incomplet.",
         "",
-        "=== Feuilles a site incomplet au niveau de la PROTEINE ===",
+        "=== Distance topologique (aretes) entre feuilles a perte confirmee ===",
+        *[f"  {a} - {b} : {d} aretes" for (a, b), d in sorted(topo.items())],
+        "",
+        "=== Feuilles a perte confirmee (site incomplet, proteine quasi complete) ===",
     ]
-    inc = [l for l in leaves if prot_state[l] == "incomplet"]
+    inc = lost
     for l in sorted(inc, key=lambda l: (byname[l]["domaine"], byname[l]["accession"])):
         r = byname[l]
         pm = protein_motif(byacc[r["accession"]])
@@ -124,17 +166,18 @@ def main() -> int:
             f"occ={r['seq_occupancy']} {org[:52]}"
         )
     report.append("")
-    report.append(f"TOTAL feuilles a site incomplet (proteine) : {len(inc)}")
+    report.append(f"TOTAL feuilles a perte confirmee : {len(inc)} ; manquantes (fragments) : "
+                  f"{sum(1 for v in prot_state.values() if v == 'manquant')}")
 
     with (OUTDIR / f"{prefix}_states.tsv").open("w") as fh:
         fh.write("leaf\tpfam_name\taccession\tdomaine\tmotif_segment\tmotif_proteine\t"
-                 "etat_segment\tetat_proteine\torganism_lineage\n")
+                 "etat_segment\tetat_proteine\torganism_lineage\tetat_site\n")
         for l in leaves:
             r = byname[l]
             fh.write("\t".join([
                 l, r["pfam_name"], r["accession"], r["domaine"], r["motif"],
-                protein_motif(byacc[r["accession"]]), seg_state[l], prot_state[l],
-                r.get("organism_lineage", ""),
+                protein_motif(byacc[r["accession"]]), seg_state[l], prot2[l],
+                r.get("organism_lineage", ""), prot_state[l],
             ]) + "\n")
 
     txt = "\n".join(report) + "\n"

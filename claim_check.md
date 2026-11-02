@@ -70,3 +70,16 @@ Portée : les treize affirmations du résumé et la conclusion entière, recoup�
 Non recoupé à la source dans cette relecture : l'effectif efficace de 2 599 séquences pondérées par Henikoff (le script `phase25_conservation_weighted.py` l'affiche mais aucune sortie conservée ne le porte ; à régénérer si une revue le demande).
 
 Quatre défauts corrigés (18, 24, 25 et la nature du nombre 2 228), dans `main.tex` et `main_fr.tex`. Les fichiers `submission/abstract_plain.txt`, `title_plain.txt` et `rv1025_source.zip` datent de la soumission du 2026-08-25 et sont à régénérer au dépôt effectif.
+
+## AA.5 : arbre de la famille et cartographie du site (2026-11-02, soir)
+
+| # | Section | Claim | Statut | Preuve |
+|---|---------|-------|--------|--------|
+| 31 | Méthodes, §3.7 | 363 représentants à 70 % d'identité, 129 colonnes, 4 281 branches pour le jeu complet, 0,18 site par branche | confirmé | `résultats/phase43_reduced/report.txt` (363 ; 129 ; ratio 0,18 ; 723 branches pour le jeu réduit) ; 4 281 branches : `AA5_audit_perte_eucaryote.md` |
+| 32 | Méthodes | modèle Q.pfam+I+R7 par BIC parmi LG, WAG, JTT, VT, Q.pfam ; 1 000 ufboot et 1 000 SH-aLRT | confirmé | `duf501_red.iqtree` (Best-fit model BIC) ; ligne de commande `-m MFP --mset LG,WAG,JTT,VT,Q.pfam -B 1000 --alrt 1000` relevée sur `mp` |
+| 33 | §3.7 | trois pertes dans un clade de cinq feuilles, avec deux fragments d'état inconnu, ufboot 62 %, SH-aLRT 0 % | confirmé | `phase44_triad_on_tree.py` et recalcul du MRCA ; étiquette « 0/62 » du nœud, ordre SH-aLRT / ufboot lu dans `duf501_red.iqtree` |
+| 34 | §3.7 | minimum de 1 perte (fragments inconnus) à 2 (fragments complets) ; 40 changements par segment, 22 par protéine incomplète | confirmé | `résultats/phase44_tree_states/duf501_red_report.txt` et bornes recalculées |
+| 35 | Méthodes | seuil de quasi-complétude 112 résidus (90 % de la médiane 124) | confirmé | même seuil que `phase29` (111,6) ; médiane lue sur l'alignement |
+| 36 | Références | Minh 2020, Kalyaanamoorthy 2017, Hoang 2018, Guindon 2010, Minh 2021, Fitch 1971 | confirmé | métadonnées lues sur Crossref le 2026-11-02 (titres, volumes, pages, DOI) |
+
+Limite assumée : le jeu réduit garde d'office tous les eucaryotes, toutes les séquences sans triade complète et l'ancre, il n'est donc pas un échantillon de la famille ; le nombre d'événements décrit cet échantillon, il n'estime pas un taux de perte. L'arbre complet (2 142 séquences) n'a pas été inféré (sous-déterminé, 129 sites).

@@ -80,3 +80,4 @@ La revue appelle tout matériel supplémentaire « Online Resource N ». Le manu
 | `figureS_conservation.pdf` | Supplementary Figure S1 | Online Resource 11 |
 | `figureS_druggability.pdf` | Supplementary Figure S2 | Online Resource 12 |
 | `figureS_synteny_phylo.pdf` | Supplementary Figure S3 | Online Resource 13 |
+| `table_S14_duf501_tree_states.tsv` et `tree_S14_duf501_tree.treefile` | ajoutés le 2026-11-02 (AA.5) | Online Resource 14 (état du site par feuille et arbre au format Newick) |

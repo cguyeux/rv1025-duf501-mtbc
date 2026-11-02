@@ -2,7 +2,8 @@
 """Phase 45 (piste AA.5) - figure : arbre ML de DUF501, etat du site metal aux feuilles.
 
 Objet       : cladogramme circulaire de la famille DUF501 avec deux anneaux, le domaine du
-              vivant et l'etat du site metal au niveau de la PROTEINE (union des segments),
+              vivant et l'etat du site metal a trois etats au niveau de la PROTEINE (complet, perdu sur une
+              proteine quasi complete, manquant pour les fragments),
               les trois pertes confirmees et l'ancre Rv1025 reperees. Cladogramme et non
               phylogramme : le domaine ne fournit que 129 colonnes, les longueurs de branche
               profondes ne sont pas interpretables (cf. report de la phase 43).
@@ -36,7 +37,7 @@ COL_DOM = {
     "non renseigne": "#EEEEEE",
     "non retourné par UniProt": "#EEEEEE",
 }
-COL_STATE = {"complet": "#009E73", "incomplet": "#CC79A7"}
+COL_STATE = {"complet": "#009E73", "perdu": "#CC79A7", "manquant": "#CCCCCC"}
 LOSSES = {"A0A1D3CV76", "U6GA88", "A0A2C6L2K9"}
 
 
@@ -114,16 +115,20 @@ def main() -> int:
         ax.add_patch(Wedge((0, 0), 0.88, th - dtheta / 2, th + dtheta / 2, width=0.045,
                            facecolor=COL_DOM.get(r["domaine"], "#EEEEEE"), edgecolor="none", zorder=2))
         ax.add_patch(Wedge((0, 0), 0.94, th - dtheta / 2, th + dtheta / 2, width=0.045,
-                           facecolor=COL_STATE[r["etat_proteine"]], edgecolor="none", zorder=2))
+                           facecolor=COL_STATE[r["etat_site"]], edgecolor="none", zorder=2))
         if r["accession"] in LOSSES:
             a = ang[id(lf)]
             ax.plot([1.00 * math.cos(a)], [1.00 * math.sin(a)], marker="v", ms=4.5,
                     color="#CC79A7", mec="black", mew=0.4, zorder=4)
-            ax.text(1.07 * math.cos(a), 1.07 * math.sin(a),
-                    r["organism_lineage"].split(" | ")[0] if r.get("organism_lineage") else r["accession"],
-                    fontsize=5.5, ha="left" if math.cos(a) >= 0 else "right",
-                    va="center", rotation=math.degrees(a) if math.cos(a) >= 0 else math.degrees(a) + 180,
-                    rotation_mode="anchor")
+            nom = (r["organism_lineage"].split(" | ")[0] if r.get("organism_lineage") else r["accession"])
+            nom = nom.split(" (")[0]                      # retire le nom vernaculaire entre parentheses
+            k = sum(1 for x in ax.texts if getattr(x, "_perte", False))
+            t = ax.annotate(nom, xy=(1.0 * math.cos(a), 1.0 * math.sin(a)),
+                            xytext=(-0.62, -1.08 - 0.07 * k), fontsize=6, style="italic",
+                            ha="right", va="center",
+                            arrowprops=dict(arrowstyle="-", lw=0.4, color="#CC79A7",
+                                            relpos=(1.0, 0.5), shrinkA=1, shrinkB=2))
+            t._perte = True
         if r["pfam_name"].startswith("P96375_MYCTU"):
             a = ang[id(lf)]
             ax.plot([1.00 * math.cos(a)], [1.00 * math.sin(a)], marker="*", ms=9,
@@ -141,16 +146,16 @@ def main() -> int:
                label="lineage unassigned"),
         Line2D([], [], marker="s", ls="", ms=7, color=COL_STATE["complet"],
                label="Cys-His-Glu site complete"),
-        Line2D([], [], marker="s", ls="", ms=7, color=COL_STATE["incomplet"],
-               label="site incomplete (protein level)"),
-        Line2D([], [], marker="v", ls="", ms=6, color=COL_STATE["incomplet"], mec="black",
-               label="confirmed loss (full-length check)"),
+        Line2D([], [], marker="v", ls="", ms=6, color=COL_STATE["perdu"], mec="black",
+               label="site lost (full-length check)"),
+        Line2D([], [], marker="s", ls="", ms=7, color=COL_STATE["manquant"],
+               label="site unknown (domain fragment)"),
         Line2D([], [], marker="*", ls="", ms=10, color="#F0E442", mec="black", label="Rv1025"),
     ]
-    ax.legend(handles=handles, loc="center", frameon=False, fontsize=6.5,
-              handletextpad=0.5, labelspacing=0.55)
-    ax.set_xlim(-1.32, 1.32)
-    ax.set_ylim(-1.32, 1.32)
+    ax.legend(handles=handles, loc="upper left", bbox_to_anchor=(-0.02, 1.0), frameon=False,
+              fontsize=6.5, handletextpad=0.5, labelspacing=0.5)
+    ax.set_xlim(-1.32, 1.55)
+    ax.set_ylim(-1.26, 1.08)
 
     fig.savefig(str(out) + ".pdf")
     fig.savefig(str(out) + ".png", dpi=600)

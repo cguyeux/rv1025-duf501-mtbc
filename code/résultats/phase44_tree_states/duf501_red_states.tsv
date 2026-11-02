@@ -1,0 +1,364 @@
+leaf	pfam_name	accession	domaine	motif_segment	motif_proteine	etat_segment	etat_proteine	organism_lineage	etat_site
+s0004	A0A023X277_RUBRA/22-85	A0A023X277	Bacteria	E--	ECH	incomplet	complet		complet
+s0005	A0A023X277_RUBRA/74-127	A0A023X277	Bacteria	-CH	ECH	incomplet	complet		complet
+s1024	A0A4R1BG77_9ACTN/70-125	A0A4R1BG77	Bacteria	-CH	ECH	incomplet	complet		complet
+s1313	A0A6G8PYT8_9ACTN/84-139	A0A6G8PYT8	Bacteria	-CH	ECH	incomplet	complet		complet
+s1315	A0A6G8Q7E4_9ACTN/73-129	A0A6G8Q7E4	Bacteria	-CH	ECH	incomplet	complet		complet
+s2146	Q1AXJ6_RUBXD/72-125	Q1AXJ6	Bacteria	-CH	ECH	incomplet	complet		complet
+s1996	C7M0H6_ACIFD/84-134	C7M0H6	Bacteria	-CH	ECH	incomplet	complet		complet
+s0086	A0A0D8FW52_9ACTN/90-147	A0A0D8FW52	Bacteria	-CH	ECH	incomplet	complet		complet
+s0085	A0A0D8FW52_9ACTN/34-105	A0A0D8FW52	Bacteria	E--	ECH	incomplet	complet		complet
+s1995	C7M0H6_ACIFD/24-102	C7M0H6	Bacteria	E--	ECH	incomplet	complet		complet
+s0458	A0A1M4VPZ3_9ACTN/33-151	A0A1M4VPZ3	Bacteria	ECH	ECH	complet	complet		complet
+s0113	A0A0J0UWX6_9ACTN/51-170	A0A0J0UWX6	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0087	A0A0D8HI83_9ACTN/32-146	A0A0D8HI83	Bacteria	ECH	ECH	complet	complet		complet
+s0106	A0A0G3V1B8_9ACTN/32-151	A0A0G3V1B8	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1052	A0A4R7HWR7_9ACTN/22-141	A0A4R7HWR7	Bacteria	ECH	ECH	complet	complet		complet
+s1293	A0A6C7EA97_ILUCY/21-140	A0A6C7EA97	Bacteria	ECH	ECH	complet	complet		complet
+s1625	A0A8F4J8M6_9ACTN/38-157	A0A8F4J8M6	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1939	A0AAE9YH79_9ACTN/25-144	A0AAE9YH79	Bacteria	ECH	ECH	complet	complet		complet
+s0022	A0A077LYI4_9MICO/1-73	A0A077LYI4	Bacteria	-CH	-CH	incomplet	incomplet		manquant
+s0207	A0A0W8I8T0_9MICO/35-158	A0A0W8I8T0	Bacteria	ECH	ECH	complet	complet		complet
+s0605	A0A249L591_9ACTN/35-163	A0A249L591	Bacteria	ECH	ECH	complet	complet		complet
+s0023	A0A077MF73_9MICO/44-173	A0A077MF73	Bacteria	ECH	ECH	complet	complet		complet
+s0538	A0A1V2RN62_9ACTN/115-151	A0A1V2RN62	supprimé d'UniProt	-CH	ECH	incomplet	complet		complet
+s1035	A0A4R4T8D2_9ACTN/107-143	A0A4R4T8D2	Bacteria	-CH	ECH	incomplet	complet		complet
+s0801	A0A365YZT8_9ACTN/111-147	A0A365YZT8	supprimé d'UniProt	-CH	ECH	incomplet	complet		complet
+s1821	A0A941INV3_9ACTN/116-152	A0A941INV3	Bacteria	-CH	ECH	incomplet	complet		complet
+s0368	A0A1H0IIE2_9ACTN/39-160	A0A1H0IIE2	Bacteria	ECH	ECH	complet	complet		complet
+s1140	A0A520E360_RHOSO/33-80	A0A520E360	supprimé d'UniProt	E--	E--	incomplet	incomplet		manquant
+s0020	A0A076NKT6_9CORY/28-153	A0A076NKT6	Bacteria	ECH	ECH	complet	complet		complet
+s2127	L7LCB3_9ACTN/25-146	L7LCB3	Bacteria	ECH	ECH	complet	complet		complet
+s2023	D6Z7N8_SEGRD/25-152	D6Z7N8	Bacteria	ECH	ECH	complet	complet		complet
+s2143	P96375_MYCTU/16-137	P96375	Bacteria	ECH	ECH	complet	complet		complet
+s0109	A0A0H3DGR1_AMYMU/34-155	A0A0H3DGR1	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0946	A0A419HF78_9PSEU/34-155	A0A419HF78	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0141	A0A0N0APJ7_9ACTN/49-176	A0A0N0APJ7	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0387	A0A1H3F6Q6_9ACTN/36-157	A0A1H3F6Q6	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1377	A0A6V8KR93_9ACTN/1-47	A0A6V8KR93	Bacteria	E--	E--	incomplet	incomplet		manquant
+s0064	A0A0A6UUB4_ACTUT/46-169	A0A0A6UUB4	Bacteria	ECH	ECH	complet	complet		complet
+s0539	A0A1V2RN62_9ACTN/30-114	A0A1V2RN62	supprimé d'UniProt	E--	ECH	incomplet	complet		complet
+s0802	A0A365YZT8_9ACTN/26-110	A0A365YZT8	supprimé d'UniProt	E--	ECH	incomplet	complet		complet
+s1036	A0A4R4T8D2_9ACTN/22-105	A0A4R4T8D2	Bacteria	E--	ECH	incomplet	complet		complet
+s1287	A0A6B3HHK6_9ACTN/1-73	A0A6B3HHK6	supprimé d'UniProt	-CH	-CH	incomplet	incomplet		manquant
+s1822	A0A941INV3_9ACTN/26-114	A0A941INV3	Bacteria	E--	ECH	incomplet	complet		complet
+s1073	A0A4S8QCI3_9ACTN/35-158	A0A4S8QCI3	Bacteria	ECH	ECH	complet	complet		complet
+s1745	A0A919Q0A6_9MICO/28-151	A0A919Q0A6	Bacteria	ECH	ECH	complet	complet		complet
+s0178	A0A0Q7K710_9ACTN/25-148	A0A0Q7K710	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0669	A0A2M9CDH0_9CELL/31-154	A0A2M9CDH0	Bacteria	ECH	ECH	complet	complet		complet
+s0411	A0A1H9RH22_9ACTN/40-163	A0A1H9RH22	Bacteria	ECH	ECH	complet	complet		complet
+s2176	S2W0J9_9ACTN/29-158	S2W0J9	Bacteria	ECH	ECH	complet	complet		complet
+s0609	A0A255ESA9_9ACTN/28-157	A0A255ESA9	Bacteria	ECH	ECH	complet	complet		complet
+s2057	F5XTP3_MICPN/28-156	F5XTP3	Bacteria	ECH	ECH	complet	complet		complet
+s0477	A0A1Q2CZ41_9ACTN/27-150	A0A1Q2CZ41	Bacteria	ECH	ECH	complet	complet		complet
+s0935	A0A3S4WUZ0_9ACTN/29-158	A0A3S4WUZ0	Bacteria	ECH	ECH	complet	complet		complet
+s2180	S3X035_9ACTN/31-159	S3X035	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1524	A0A7X6KS22_9CELL/46-168	A0A7X6KS22	Bacteria	ECH	ECH	complet	complet		complet
+s0566	A0A1Y1V0F2_9FUNG/41-164	A0A1Y1V0F2	Eukaryota	ECH	ECH	complet	complet	Piromyces finnis | cellular organisms (no rank), Eukaryota (domain), Opisthokonta (clade), Fungi (kingdom), Fungi incertae sedis (no rank), Chytridiomycota (phylum), Chytridiomycota incertae sedis (no rank), Neocallimastigomycetes (class), Neocallimastigales (order), Neocallimastigaceae (family), Piromyces (genus)	complet
+s0567	A0A1Y1V0X5_9FUNG/58-181	A0A1Y1V0X5	Eukaryota	ECH	ECH	complet	complet	Piromyces finnis | cellular organisms (no rank), Eukaryota (domain), Opisthokonta (clade), Fungi (kingdom), Fungi incertae sedis (no rank), Chytridiomycota (phylum), Chytridiomycota incertae sedis (no rank), Neocallimastigomycetes (class), Neocallimastigales (order), Neocallimastigaceae (family), Piromyces (genus)	complet
+s0568	A0A1Y1WPY2_9FUNG/57-180	A0A1Y1WPY2	Eukaryota	ECH	ECH	complet	complet	Anaeromyces robustus | cellular organisms (no rank), Eukaryota (domain), Opisthokonta (clade), Fungi (kingdom), Fungi incertae sedis (no rank), Chytridiomycota (phylum), Chytridiomycota incertae sedis (no rank), Neocallimastigomycetes (class), Neocallimastigales (order), Neocallimastigaceae (family), Anaeromyces (genus)	complet
+s2175	S2VFZ2_9ACTO/47-170	S2VFZ2	Bacteria	ECH	ECH	complet	complet		complet
+s0048	A0A095X7T0_9ACTO/46-169	A0A095X7T0	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0204	A0A0W1KJK1_9ACTO/44-167	A0A0W1KJK1	Bacteria	ECH	ECH	complet	complet		complet
+s0259	A0A179B5I0_9ACTO/37-160	A0A179B5I0	Bacteria	ECH	ECH	complet	complet		complet
+s0664	A0A2L2BPD4_9MICO/28-151	A0A2L2BPD4	Bacteria	ECH	ECH	complet	complet		complet
+s1631	A0A8I0KP44_9ACTO/33-161	A0A8I0KP44	Bacteria	ECH	ECH	complet	complet		complet
+s1941	A0AAJ1BEQ3_9ACTO/30-159	A0AAJ1BEQ3	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0003	A0A022KUT6_9MICO/40-163	A0A022KUT6	Bacteria	ECH	ECH	complet	complet		complet
+s0561	A0A1X6X857_9MICO/35-158	A0A1X6X857	Bacteria	ECH	ECH	complet	complet		complet
+s1575	A0A839R1U5_9MICO/34-157	A0A839R1U5	Bacteria	ECH	ECH	complet	complet		complet
+s0036	A0A087BQG5_9BIFI/48-157	A0A087BQG5	Bacteria	EC-	EC-	incomplet	incomplet		manquant
+s0613	A0A261ET31_9BIFI/51-179	A0A261ET31	Bacteria	ECH	ECH	complet	complet		complet
+s0620	A0A261G608_9BIFI/44-172	A0A261G608	Bacteria	ECH	ECH	complet	complet		complet
+s0035	A0A087BKT3_9BIFI/40-168	A0A087BKT3	Bacteria	ECH	ECH	complet	complet		complet
+s0024	A0A080N1Z4_9BIFI/118-247	A0A080N1Z4	Bacteria	ECH	ECH	complet	complet		complet
+s0034	A0A087BCH0_9BIFI/52-180	A0A087BCH0	Bacteria	ECH	ECH	complet	complet		complet
+s2102	J0X160_9BIFI/156-228	J0X160	Bacteria	-CH	ECH	incomplet	complet		complet
+s2208	W1MXI9_SCAIO/59-187	W1MXI9	Bacteria	ECH	ECH	complet	complet		complet
+s2103	J0X160_9BIFI/63-125	J0X160	Bacteria	E--	ECH	incomplet	complet		complet
+s2192	U1R7H6_9BIFI/44-172	U1R7H6	Bacteria	ECH	ECH	complet	complet		complet
+s0033	A0A087B449_9BIFI/45-173	A0A087B449	Bacteria	ECH	ECH	complet	complet		complet
+s0614	A0A261EYK0_9BIFI/65-194	A0A261EYK0	Bacteria	ECH	ECH	complet	complet		complet
+s0616	A0A261FA27_9BIFI/172-248	A0A261FA27	Bacteria	-CH	ECH	incomplet	complet		complet
+s0617	A0A261FA27_9BIFI/83-183	A0A261FA27	Bacteria	E--	ECH	incomplet	complet		complet
+s2111	K0ZEQ0_9ACTO/28-156	K0ZEQ0	Bacteria	ECH	ECH	complet	complet		complet
+s0051	A0A095YZ23_9ACTO/26-149	A0A095YZ23	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0311	A0A1D8B1T2_9ACTO/33-156	A0A1D8B1T2	Bacteria	ECH	ECH	complet	complet		complet
+s0315	A0A1D9MKW9_9ACTO/28-151	A0A1D9MKW9	Bacteria	ECH	ECH	complet	complet		complet
+s0493	A0A1Q5PRW5_9ACTO/37-160	A0A1Q5PRW5	Bacteria	ECH	ECH	complet	complet		complet
+s0492	A0A1Q5PJT6_9ACTO/27-150	A0A1Q5PJT6	Bacteria	ECH	ECH	complet	complet		complet
+s0495	A0A1Q5Q1R8_9ACTO/25-149	A0A1Q5Q1R8	Bacteria	ECH	ECH	complet	complet		complet
+s0508	A0A1R4FGJ2_9ACTO/78-201	A0A1R4FGJ2	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0893	A0A3N2BAP0_9MICO/34-162	A0A3N2BAP0	Bacteria	ECH	ECH	complet	complet		complet
+s0912	A0A3P1SDZ7_9ACTO/30-153	A0A3P1SDZ7	Bacteria	ECH	ECH	complet	complet		complet
+s0073	A0A0B9A4I7_BRELN/27-156	A0A0B9A4I7	Bacteria	ECH	ECH	complet	complet		complet
+s0008	A0A031FTJ9_9MICO/15-138	A0A031FTJ9	Bacteria	ECH	ECH	complet	complet		complet
+s0237	A0A147EBS1_9MICO/31-154	A0A147EBS1	Bacteria	ECH	ECH	complet	complet		complet
+s0844	A0A3A1U1X3_9MICO/26-149	A0A3A1U1X3	Bacteria	ECH	ECH	complet	complet		complet
+s0697	A0A2P8E5Q4_9ACTN/28-151	A0A2P8E5Q4	Bacteria	ECH	ECH	complet	complet		complet
+s2163	Q83FF9_TROWT/43-164	Q83FF9	Bacteria	ECH	ECH	complet	complet		complet
+s0921	A0A3Q8WX36_9ACTO/33-156	A0A3Q8WX36	Bacteria	ECH	ECH	complet	complet		complet
+s0336	A0A1G4VLY7_9MICO/26-148	A0A1G4VLY7	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0651	A0A2C8ZGI2_9MICO/30-152	A0A2C8ZGI2	Bacteria	ECH	ECH	complet	complet		complet
+s0510	A0A1R4GE52_9MICO/29-152	A0A1R4GE52	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0715	A0A2S5X5T8_9MICO/15-138	A0A2S5X5T8	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0736	A0A2T5X6C6_9MICO/28-151	A0A2T5X6C6	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1857	A0A9E8SAD7_9MICO/31-154	A0A9E8SAD7	Bacteria	ECH	ECH	complet	complet		complet
+s1906	A0AA37XBC6_9MICO/31-154	A0AA37XBC6	Bacteria	ECH	ECH	complet	complet		complet
+s0065	A0A0A6YCH5_KOCRO/30-159	A0A0A6YCH5	Bacteria	ECH	ECH	complet	complet		complet
+s1526	A0A7X8TKQ1_9MICC/36-165	A0A7X8TKQ1	Bacteria	ECH	ECH	complet	complet		complet
+s0718	A0A2S8WPK9_9MICC/40-169	A0A2S8WPK9	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s2024	D6ZKJ5_MOBCV/27-159	D6ZKJ5	Bacteria	ECH	ECH	complet	complet		complet
+s0796	A0A346Y2C2_9ACTN/57-177	A0A346Y2C2	Bacteria	ECH	ECH	complet	complet		complet
+s0942	A0A411YJ19_9ACTN/57-177	A0A411YJ19	Bacteria	ECH	ECH	complet	complet		complet
+s1641	A0A8J3ETE5_9ACTN/67-187	A0A8J3ETE5	Bacteria	ECH	ECH	complet	complet		complet
+s1350	A0A6L5F494_9ACTN/28-155	A0A6L5F494	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0006	A0A024G9M3_9STRA/39-186	A0A024G9M3	Eukaryota	ECH	ECH	complet	complet	Albugo candida | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Albuginales (order), Albuginaceae (family), Albugo (genus)	complet
+s0153	A0A0P1A8J7_PLAHL/51-197	A0A0P1A8J7	Eukaryota	ECH	ECH	complet	complet	Plasmopara halstedii (Downy mildew of sunflower) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Plasmopara (genus)	complet
+s0877	A0A3M6V817_9STRA/1-71	A0A3M6V817	Eukaryota	-CH	-CH	incomplet	incomplet		manquant
+s0587	A0A225VD34_9STRA/48-193	A0A225VD34	Eukaryota	ECH	ECH	complet	complet	Phytophthora megakarya | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s0694	A0A2P4Y3U7_9STRA/46-192	A0A2P4Y3U7	Eukaryota	ECH	ECH	complet	complet	Phytophthora palmivora | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1855	A0A976FR31_BRELC/50-196	A0A976FR31	Eukaryota	ECH	ECH	complet	complet	Bremia lactucae (Lettuce downy mildew) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Bremia (genus)	complet
+s1933	A0AAD9G490_9STRA/48-194	A0AAD9G490	Eukaryota	ECH	ECH	complet	complet	Phytophthora citrophthora | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1569	A0A833W5L3_PHYIN/47-194	A0A833W5L3	Eukaryota	ECH	ECH	complet	complet	Phytophthora infestans (Potato late blight agent) (Botrytis infestans) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s2003	D0NKV2_PHYIT/47-194	D0NKV2	Eukaryota	ECH	ECH	complet	complet	Phytophthora infestans (strain T30-4) (Potato late blight agent) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus), Phytophthora infestans (species)	complet
+s2136	M4BYE9_HYAAE/46-189	M4BYE9	Eukaryota	ECH	ECH	complet	complet	Hyaloperonospora arabidopsidis (strain Emoy2) (Downy mildew agent) (Peronospora arabidopsidis) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Hyaloperonospora (genus), Hyaloperonospora arabidopsidis (species)	complet
+s2206	V9FNE8_PHYNI/48-194	V9FNE8	Eukaryota	ECH	ECH	complet	complet	Phytophthora nicotianae P1569 | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus), Phytophthora nicotianae (species)	complet
+s0790	A0A329RZZ6_9STRA/51-197	A0A329RZZ6	Eukaryota	ECH	ECH	complet	complet	Phytophthora cactorum | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1660	A0A8J5M6Y4_9STRA/51-197	A0A8J5M6Y4	Eukaryota	ECH	ECH	complet	complet	Phytophthora aleatoria | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s0878	A0A3M6VAT6_9STRA/44-119	A0A3M6VAT6	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2083	H3HCG6_PHYRM/30-175	H3HCG6	Eukaryota	ECH	ECH	complet	complet	Phytophthora ramorum (Sudden oak death agent) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1274	A0A6A3EY96_9STRA/57-203	A0A6A3EY96	Eukaryota	ECH	ECH	complet	complet	Phytophthora fragariae | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1276	A0A6A3MUS4_9STRA/57-203	A0A6A3MUS4	Eukaryota	ECH	ECH	complet	complet	Phytophthora rubi | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1275	A0A6A3G7T8_9STRA/18-93	A0A6A3G7T8	Eukaryota	-C-	-C-	incomplet	incomplet		manquant
+s1277	A0A6A3P2Z8_9STRA/1-66	A0A6A3P2Z8	Eukaryota	-C-	-C-	incomplet	incomplet		manquant
+s2070	G4ZX89_PHYSP/53-198	G4ZX89	Eukaryota	ECH	ECH	complet	complet	Phytophthora sojae (strain P6497) (Soybean stem and root rot agent) (Phytophthora megasperma f. sp. glycines) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus), Phytophthora sojae (species)	complet
+s1666	A0A8T1W2Z0_9STRA/49-194	A0A8T1W2Z0	Eukaryota	ECH	ECH	complet	complet	Phytophthora pseudosyringae | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s0924	A0A3R7HVX3_9STRA/53-199	A0A3R7HVX3	Eukaryota	ECH	ECH	complet	complet	Phytophthora kernoviae | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s1667	A0A8T1WVM5_9STRA/51-197	A0A8T1WVM5	Eukaryota	ECH	ECH	complet	complet	Phytophthora boehmeriae | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Peronosporomycetes (class), Peronosporales (order), Peronosporaceae (family), Phytophthora (genus)	complet
+s0007	A0A024TNQ5_9STRA/68-214	A0A024TNQ5	Eukaryota	ECH	ECH	complet	complet	Aphanomyces invadans | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Verrucalvaceae (family), Aphanomyces (genus)	complet
+s0928	A0A3R8D3Y1_APHAT/77-152	A0A3R8D3Y1	Eukaryota	E--	ECH	incomplet	complet		complet
+s0970	A0A485L0L8_9STRA/69-215	A0A485L0L8	Eukaryota	ECH	ECH	complet	complet	Aphanomyces stellatus | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Verrucalvaceae (family), Aphanomyces (genus)	complet
+s1296	A0A6G0WVN6_9STRA/69-214	A0A6G0WVN6	Eukaryota	ECH	ECH	complet	complet	Aphanomyces euteiches | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Verrucalvaceae (family), Aphanomyces (genus)	complet
+s0015	A0A067CIQ7_SAPPC/65-211	A0A067CIQ7	Eukaryota	ECH	ECH	complet	complet	Saprolegnia parasitica (strain CBS 223.65) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Saprolegniaceae (family), Saprolegnia (genus), Saprolegnia parasitica (species)	complet
+s2188	T0RLE0_SAPDV/62-208	T0RLE0	Eukaryota	ECH	ECH	complet	complet	Saprolegnia diclina (strain VS20) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Saprolegniaceae (family), Saprolegnia (genus), Saprolegnia diclina (species)	complet
+s0544	A0A1V9Z5R7_ACHHY/64-210	A0A1V9Z5R7	Eukaryota	ECH	ECH	complet	complet	Achlya hypogyna (Oomycete) (Protoachlya hypogyna) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Achlyaceae (family), Achlya (genus)	complet
+s0927	A0A3R8D3Y1_APHAT/148-194	A0A3R8D3Y1	Eukaryota	-CH	ECH	incomplet	complet		complet
+s0545	A0A1W0AC20_9STRA/63-209	A0A1W0AC20	Eukaryota	ECH	ECH	complet	complet	Thraustotheca clavata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Oomycota (phylum), Saprolegniomycetes (class), Saprolegniales (order), Achlyaceae (family), Thraustotheca (genus)	complet
+s0010	A0A061D8J0_BABBI/481-548	A0A061D8J0	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s0658	A0A2H6K7W2_9APIC/470-536	A0A2H6K7W2	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s0554	A0A1X1BPA5_9APIC/387-485	A0A1X1BPA5	supprimé d'UniProt	E--	E--	incomplet	incomplet		manquant
+s1873	A0A9W5T8J3_BABOV/437-521	A0A9W5T8J3	Eukaryota	E--	ECH	incomplet	complet	Babesia ovis | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Aconoidasida (class), Piroplasmida (order), Babesiidae (family), Babesia (genus)	complet
+s1928	A0AAD8PFV8_BABGI/423-518	A0AAD8PFV8	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1934	A0AAD9G714_BABDI/427-503	A0AAD9G714	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2120	L0AWN1_THEEQ/316-390	L0AWN1	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1961	A7ANF9_BABBO/416-511	A7ANF9	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1632	A0A8J2S4W0_9STRA/79-228	A0A8J2S4W0	Eukaryota	ECH	ECH	complet	complet	Pelagomonas calceolata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Pelagophyceae (class), Pelagomonadales (order), Pelagomonadaceae (family), Pelagomonas (genus)	complet
+s1635	A0A8J2ST05_9STRA/52-182	A0A8J2ST05	Eukaryota	ECH	ECH	complet	complet	Pelagomonas calceolata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Pelagophyceae (class), Pelagomonadales (order), Pelagomonadaceae (family), Pelagomonas (genus)	complet
+s0322	A0A1E7FHM1_9STRA/151-337	A0A1E7FHM1	Eukaryota	ECH	ECH	complet	complet	Fragilariopsis cylindrus CCMP1102 | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Fragilariopsis (genus), Fragilariopsis cylindrus (species)	complet
+s0967	A0A448ZFV9_9STRA/208-437	A0A448ZFV9	Eukaryota	ECH	ECH	complet	complet	Pseudo-nitzschia multistriata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Pseudo-nitzschia (genus)	complet
+s1859	A0A9K3KWR1_9STRA/196-345	A0A9K3KWR1	Eukaryota	E--	ECH	incomplet	complet	Nitzschia inconspicua | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Nitzschia (genus)	complet
+s1861	A0A9K3PP58_9STRA/176-305	A0A9K3PP58	Eukaryota	E--	ECH	incomplet	complet	Nitzschia inconspicua | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Nitzschia (genus)	complet
+s1860	A0A9K3KWR1_9STRA/348-446	A0A9K3KWR1	Eukaryota	-CH	ECH	incomplet	complet	Nitzschia inconspicua | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Nitzschia (genus)	complet
+s1862	A0A9K3PP58_9STRA/288-382	A0A9K3PP58	Eukaryota	-CH	ECH	incomplet	complet	Nitzschia inconspicua | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Nitzschia (genus)	complet
+s1923	A0AAD2PVL0_9STRA/134-333	A0AAD2PVL0	Eukaryota	ECH	ECH	complet	complet	Cylindrotheca closterium | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Cylindrotheca (genus)	complet
+s0576	A0A1Z5JA01_FISSO/109-280	A0A1Z5JA01	Eukaryota	ECH	ECH	complet	complet	Fistulifera solaris (Oleaginous diatom) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Fistulifera (genus)	complet
+s0578	A0A1Z5K406_FISSO/107-278	A0A1Z5K406	Eukaryota	ECH	ECH	complet	complet	Fistulifera solaris (Oleaginous diatom) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Fistulifera (genus)	complet
+s1864	A0A9N8E898_9STRA/231-379	A0A9N8E898	Eukaryota	ECH	ECH	complet	complet	Seminavis robusta | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Seminavis (genus)	complet
+s1974	B7FZ01_PHATC/127-302	B7FZ01	Eukaryota	ECH	ECH	complet	complet	Phaeodactylum tricornutum (strain CCAP 1055/1) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Phaeodactylaceae (family), Phaeodactylum (genus), Phaeodactylum tricornutum (species)	complet
+s1925	A0AAD3CV09_9STRA/112-296	A0AAD3CV09	Eukaryota	ECH	ECH	complet	complet	Chaetoceros tenuissimus | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Chaetocerotophycidae (subclass), Chaetocerotales (order), Chaetocerotaceae (family), Chaetoceros (genus)	complet
+s1930	A0AAD8Y377_9STRA/251-410	A0AAD8Y377	Eukaryota	ECH	ECH	complet	complet	Skeletonema marinoi | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Skeletonemataceae (family), Skeletonema (genus), Skeletonema marinoi-dohrnii complex (clade)	complet
+s1977	B8CC62_THAPS/279-441	B8CC62	Eukaryota	ECH	ECH	complet	complet	Thalassiosira pseudonana (Marine diatom) (Cyclotella nana) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Thalassiosiraceae (family), Thalassiosira (genus)	complet
+s2122	L1II88_GUITC/44-126	L1II88	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1570	A0A835Z2A9_9STRA/23-87	A0A835Z2A9	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2028	D7FHT2_ECTSI/48-119	D7FHT2	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1320	A0A6H5JYJ7_9PHAE/48-192	A0A6H5JYJ7	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1662	A0A8J6C647_DIALT/35-187	A0A8J6C647	Eukaryota	ECH	ECH	complet	complet	Diacronema lutheri (Unicellular marine alga) (Monochrysis lutheri) | cellular organisms (no rank), Eukaryota (domain), Haptista (clade), Haptophyta (phylum), Pavlovophyceae (class), Pavlovales (order), Pavlovaceae (family), Diacronema (genus)	complet
+s1956	A4SAH6_OSTLU/38-208	A4SAH6	Eukaryota	ECH	ECH	complet	complet	Ostreococcus lucimarinus (strain CCE9901) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Bathycoccaceae (family), Ostreococcus (genus), unclassified Ostreococcus (no rank), Ostreococcus sp. 'lucimarinus' (species)	complet
+s1984	C1ECF1_MICCC/83-248	C1ECF1	Eukaryota	ECH	ECH	complet	complet	Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) (Picoplanktonic green alga) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Mamiellaceae (family), Micromonas (genus)	complet
+s1987	C1N6P5_MICPC/11-105	C1N6P5	Eukaryota	-CH	-CH	incomplet	incomplet		manquant
+s0321	A0A1E7F370_9STRA/16-194	A0A1E7F370	Eukaryota	ECH	ECH	complet	complet	Fragilariopsis cylindrus CCMP1102 | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Fragilariopsis (genus), Fragilariopsis cylindrus (species)	complet
+s0968	A0A448ZKR0_9STRA/231-297	A0A448ZKR0	Eukaryota	-CH	ECH	incomplet	complet	Pseudo-nitzschia multistriata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Pseudo-nitzschia (genus)	complet
+s1922	A0AAD2GC12_9STRA/48-218	A0AAD2GC12	Eukaryota	ECH	ECH	complet	complet	Cylindrotheca closterium | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Cylindrotheca (genus)	complet
+s1973	B7FYF2_PHATC/92-283	B7FYF2	Eukaryota	ECH	ECH	complet	complet	Phaeodactylum tricornutum (strain CCAP 1055/1) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Phaeodactylaceae (family), Phaeodactylum (genus), Phaeodactylum tricornutum (species)	complet
+s0969	A0A448ZKR0_9STRA/69-214	A0A448ZKR0	Eukaryota	E--	ECH	incomplet	complet	Pseudo-nitzschia multistriata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Pseudo-nitzschia (genus)	complet
+s0577	A0A1Z5K273_FISSO/57-217	A0A1Z5K273	Eukaryota	ECH	ECH	complet	complet	Fistulifera solaris (Oleaginous diatom) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Fistulifera (genus)	complet
+s1865	A0A9N8EKR1_9STRA/67-257	A0A9N8EKR1	Eukaryota	ECH	ECH	complet	complet	Seminavis robusta | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Seminavis (genus)	complet
+s1924	A0AAD3CTX2_9STRA/60-228	A0AAD3CTX2	Eukaryota	ECH	ECH	complet	complet	Chaetoceros tenuissimus | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Chaetocerotophycidae (subclass), Chaetocerotales (order), Chaetocerotaceae (family), Chaetoceros (genus)	complet
+s1929	A0AAD8Y1T9_9STRA/144-328	A0AAD8Y1T9	Eukaryota	ECH	ECH	complet	complet	Skeletonema marinoi | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Skeletonemataceae (family), Skeletonema (genus), Skeletonema marinoi-dohrnii complex (clade)	complet
+s0107	A0A0G4GKB7_VITBC/134-268	A0A0G4GKB7	Eukaryota	ECH	ECH	complet	complet	Vitrella brassicaformis (strain CCMP3155) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Colpodellida (clade), Vitrellaceae (family), Vitrella (genus), Vitrella brassicaformis (species)	complet
+s0648	A0A2A9M7T6_9APIC/452-526	A0A2A9M7T6	Eukaryota	-CH	ECH	incomplet	complet	Besnoitia besnoiti (Apicomplexan protozoan) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Sarcocystidae (family), Besnoitia (genus)	complet
+s2047	F0VAI8_NEOCL/374-457	F0VAI8	Eukaryota	-CH	ECH	incomplet	complet	Neospora caninum (strain Liverpool) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Sarcocystidae (family), Neospora (genus), Neospora caninum (species)	complet
+s2053	F3LI57_9GAMM/1-70	F3LI57	supprimé d'UniProt	-CH	-CH	incomplet	incomplet		manquant
+s1471	A0A7W2TVC0_9GAMM/59-192	A0A7W2TVC0	Bacteria	ECH	ECH	complet	complet		complet
+s0681	A0A2N5WYL1_9GAMM/32-165	A0A2N5WYL1	Bacteria	ECH	ECH	complet	complet		complet
+s1045	A0A4R5LRW6_9GAMM/32-165	A0A4R5LRW6	Bacteria	ECH	ECH	complet	complet		complet
+s1250	A0A5P9NJF7_9GAMM/28-161	A0A5P9NJF7	Bacteria	ECH	ECH	complet	complet		complet
+s1223	A0A5C8ZSU8_9GAMM/32-165	A0A5C8ZSU8	Bacteria	ECH	ECH	complet	complet		complet
+s2052	F3KZS8_9GAMM/25-157	F3KZS8	Bacteria	ECH	ECH	complet	complet		complet
+s0683	A0A2N5Y3S2_9GAMM/34-167	A0A2N5Y3S2	Bacteria	ECH	ECH	complet	complet		complet
+s1724	A0A918XDP5_9GAMM/25-158	A0A918XDP5	Bacteria	ECH	ECH	complet	complet		complet
+s0047	A0A095VUB1_9GAMM/28-161	A0A095VUB1	Bacteria	ECH	ECH	complet	complet		complet
+s1948	A0Z830_9GAMM/36-168	A0Z830	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s2084	H3NW55_9GAMM/40-173	H3NW55	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1980	B8KXK2_9GAMM/32-165	B8KXK2	Bacteria	ECH	ECH	complet	complet		complet
+s1030	A0A4R2L3P0_9GAMM/29-162	A0A4R2L3P0	Bacteria	ECH	ECH	complet	complet		complet
+s2100	I7JAL0_BABMR/211-298	I7JAL0	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s0709	A0A2S3QTM8_9BACT/39-170	A0A2S3QTM8	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0013	A0A063Y134_9GAMM/25-158	A0A063Y134	Bacteria	ECH	ECH	complet	complet		complet
+s0025	A0A081FYI1_9GAMM/25-158	A0A081FYI1	Bacteria	ECH	ECH	complet	complet		complet
+s0913	A0A3P1SP96_9GAMM/25-159	A0A3P1SP96	Bacteria	ECH	ECH	complet	complet		complet
+s1467	A0A7U8C9T1_NEPCE/26-159	A0A7U8C9T1	Bacteria	ECH	ECH	complet	complet		complet
+s1664	A0A8J7JXY3_9GAMM/26-159	A0A8J7JXY3	Bacteria	ECH	ECH	complet	complet		complet
+s0276	A0A1A9ET33_9GAMM/27-160	A0A1A9ET33	Bacteria	ECH	ECH	complet	complet		complet
+s0678	A0A2N0WMG8_9GAMM/28-161	A0A2N0WMG8	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0503	A0A1R1MIS2_9GAMM/25-163	A0A1R1MIS2	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0821	A0A369WEN4_9GAMM/24-161	A0A369WEN4	Bacteria	ECH	ECH	complet	complet		complet
+s0391	A0A1H4DK14_9GAMM/33-167	A0A1H4DK14	Bacteria	ECH	ECH	complet	complet		complet
+s1539	A0A7Y7CU93_9GAMM/25-158	A0A7Y7CU93	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1870	A0A9Q5C8F5_9GAMM/25-158	A0A9Q5C8F5	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0962	A0A437QAV9_9GAMM/25-158	A0A437QAV9	Bacteria	ECH	ECH	complet	complet		complet
+s1265	A0A5S9QHK0_9GAMM/60-193	A0A5S9QHK0	Bacteria	ECH	ECH	complet	complet		complet
+s0096	A0A0F4QZX5_9GAMM/26-159	A0A0F4QZX5	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0155	A0A0P7DFG4_9GAMM/31-166	A0A0P7DFG4	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0255	A0A172YCV0_9GAMM/31-164	A0A172YCV0	Bacteria	ECH	ECH	complet	complet		complet
+s2147	Q1QT24_CHRSD/31-164	Q1QT24	Bacteria	ECH	ECH	complet	complet		complet
+s0216	A0A0X8HEW0_9GAMM/31-164	A0A0X8HEW0	Bacteria	ECH	ECH	complet	complet		complet
+s0385	A0A1H2VXD0_9GAMM/31-164	A0A1H2VXD0	Bacteria	ECH	ECH	complet	complet		complet
+s0519	A0A1S2DEE4_9GAMM/31-164	A0A1S2DEE4	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0600	A0A240URE7_9GAMM/31-164	A0A240URE7	Bacteria	ECH	ECH	complet	complet		complet
+s1912	A0AA41ZNC5_9GAMM/31-164	A0AA41ZNC5	Bacteria	ECH	ECH	complet	complet		complet
+s0525	A0A1T1HGB5_OCELI/31-164	A0A1T1HGB5	Bacteria	ECH	ECH	complet	complet		complet
+s0402	A0A1H6U5J5_9GAMM/31-164	A0A1H6U5J5	Bacteria	ECH	ECH	complet	complet		complet
+s0316	A0A1E2VDW8_9GAMM/31-166	A0A1E2VDW8	Bacteria	ECH	ECH	complet	complet		complet
+s0418	A0A1I1H9T9_9GAMM/31-164	A0A1I1H9T9	Bacteria	ECH	ECH	complet	complet		complet
+s1905	A0AA37W838_9GAMM/29-163	A0AA37W838	Bacteria	ECH	ECH	complet	complet		complet
+s0309	A0A1D3CV76_9EIME/460-583	A0A1D3CV76	Eukaryota	E--	E--	incomplet	incomplet	Cyclospora cayetanensis | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Eimeriidae (family), Cyclospora (genus)	perdu
+s2198	U6GA88_EIMAC/249-361	U6GA88	Eukaryota	E--	E--	incomplet	incomplet	Eimeria acervulina (Coccidian parasite) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Eimeriidae (family), Eimeria (genus)	perdu
+s2199	U6KWY5_EIMTE/262-365	U6KWY5	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2200	U6N5L6_9EIME/302-409	U6N5L6	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s0650	A0A2C6L2K9_9APIC/550-663	A0A2C6L2K9	Eukaryota	E--	E--	incomplet	incomplet	Cystoisospora suis | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Sarcocystidae (family), Cystoisospora (genus)	perdu
+s1379	A0A6V8NFX8_9ACTN/143-235	A0A6V8NFX8	Bacteria	-CH	ECH	incomplet	complet		complet
+s0647	A0A2A9M7T6_9APIC/291-444	A0A2A9M7T6	Eukaryota	E--	ECH	incomplet	complet	Besnoitia besnoiti (Apicomplexan protozoan) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Sarcocystidae (family), Besnoitia (genus)	complet
+s2046	F0VAI8_NEOCL/208-364	F0VAI8	Eukaryota	E--	ECH	incomplet	complet	Neospora caninum (strain Liverpool) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Conoidasida (class), Coccidia (subclass), Eucoccidiorida (order), Eimeriorina (suborder), Sarcocystidae (family), Neospora (genus), Neospora caninum (species)	complet
+s1874	A0A9W5T8J3_BABOV/504-619	A0A9W5T8J3	Eukaryota	-CH	ECH	incomplet	complet	Babesia ovis | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Apicomplexa (phylum), Aconoidasida (class), Piroplasmida (order), Babesiidae (family), Babesia (genus)	complet
+s1935	A0AAD9UP27_9APIC/421-490	A0AAD9UP27	Eukaryota	-CH	-CH	incomplet	incomplet		manquant
+s2091	I0IID3_PHYMF/32-169	I0IID3	Bacteria	ECH	ECH	complet	complet		complet
+s1514	A0A7X0H638_9BACT/10-140	A0A7X0H638	Bacteria	ECH	ECH	complet	complet		complet
+s1138	A0A517YYP1_9BACT/24-178	A0A517YYP1	Bacteria	ECH	ECH	complet	complet		complet
+s1139	A0A518C063_9BACT/24-163	A0A518C063	Bacteria	ECH	ECH	complet	complet		complet
+s1893	A0A9W7CHG9_9STRA/197-347	A0A9W7CHG9	Eukaryota	ECH	ECH	complet	complet	Triparma laevis f. longispina | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bolidophyceae (class), Parmales (order), Triparmaceae (family), Triparma (genus), Triparma laevis (species)	complet
+s1894	A0A9W7F214_9STRA/221-369	A0A9W7F214	Eukaryota	ECH	ECH	complet	complet	Triparma strigata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bolidophyceae (class), Parmales (order), Triparmaceae (family), Triparma (genus)	complet
+s1895	A0A9W7GL09_9STRA/128-285	A0A9W7GL09	Eukaryota	ECH	ECH	complet	complet	Triparma columacea | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bolidophyceae (class), Parmales (order), Triparmaceae (family), Triparma (genus)	complet
+s0011	A0A061J860_TRYRA/29-175	A0A061J860	Eukaryota	ECH	ECH	complet	complet	Trypanosoma rangeli SC58 | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Herpetosoma (subgenus), Trypanosoma rangeli (species)	complet
+s0949	A0A422N2V1_TRYRA/29-173	A0A422N2V1	Eukaryota	ECH	ECH	complet	complet	Trypanosoma rangeli | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Herpetosoma (subgenus)	complet
+s0926	A0A3R7L3I4_9TRYP/29-173	A0A3R7L3I4	Eukaryota	ECH	ECH	complet	complet	Trypanosoma conorhini | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Trypanosoma incertae sedis (no rank)	complet
+s2112	K2MEG4_TRYCR/29-173	K2MEG4	Eukaryota	ECH	ECH	complet	complet	Trypanosoma cruzi marinkellei | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Schizotrypanum (subgenus), Trypanosoma cruzi (species)	complet
+s2149	Q4CZW9_TRYCC/29-173	Q4CZW9	Eukaryota	ECH	ECH	complet	complet	Trypanosoma cruzi (strain CL Brener) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Schizotrypanum (subgenus), Trypanosoma cruzi (species)	complet
+s2150	Q4DED9_TRYCC/29-173	Q4DED9	Eukaryota	ECH	ECH	complet	complet	Trypanosoma cruzi (strain CL Brener) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Schizotrypanum (subgenus), Trypanosoma cruzi (species)	complet
+s0552	A0A1X0PAX3_9TRYP/29-173	A0A1X0PAX3	Eukaryota	ECH	ECH	complet	complet	Trypanosoma theileri | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Trypanosoma incertae sedis (no rank)	complet
+s2155	Q580D1_TRYB2/23-168	Q580D1	Eukaryota	ECH	ECH	complet	complet	Trypanosoma brucei brucei (strain 927/4 GUTat10.1) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Trypanosoma (genus), Trypanozoon (subgenus), Trypanosoma brucei (species), Trypanosoma brucei brucei (subspecies)	complet
+s0192	A0A0S4KPJ4_BODSA/39-180	A0A0S4KPJ4	Eukaryota	ECH	ECH	complet	complet	Bodo saltans (Flagellated protozoan) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Eubodonida (order), Bodonidae (family), Bodo (genus)	complet
+s0142	A0A0N0DX18_LEPPY/35-177	A0A0N0DX18	Eukaryota	ECH	ECH	complet	complet	Leptomonas pyrrhocoris (Firebug parasite) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Leishmaniinae (subfamily), Leptomonas (genus)	complet
+s1955	A4IAD9_LEIIN/36-178	A4IAD9	Eukaryota	ECH	ECH	complet	complet	Leishmania infantum | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Leishmaniinae (subfamily), Leishmania (genus), Leishmania (subgenus), Leishmania donovani species complex (no rank)	complet
+s2153	Q4Q2H2_LEIMA/36-178	Q4Q2H2	Eukaryota	ECH	ECH	complet	complet	Leishmania major | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Leishmaniinae (subfamily), Leishmania (genus), Leishmania (subgenus), Leishmania major species complex (no rank)	complet
+s1389	A0A7G2C5F5_9TRYP/33-176	A0A7G2C5F5	Eukaryota	ECH	ECH	complet	complet	Angomonas deanei | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Strigomonadinae (subfamily), Angomonas (genus)	complet
+s2187	S9TXE0_9TRYP/63-206	S9TXE0	Eukaryota	ECH	ECH	complet	complet	Strigomonas culicis | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Euglenozoa (phylum), Kinetoplastea (class), Metakinetoplastina (subclass), Trypanosomatida (order), Trypanosomatidae (family), Strigomonadinae (subfamily), Strigomonas (genus)	complet
+s2217	W6KI44_9TRYP/1-117	W6KI44	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1278	A0A6A5CBS0_NAEFO/181-254	A0A6A5CBS0	Eukaryota	-CH	ECH	incomplet	complet	Naegleria fowleri (Brain eating amoeba) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Heterolobosea (phylum), Tetramitia (clade), Eutetramitia (clade), Vahlkampfiidae (family), Naegleria (genus)	complet
+s1918	A0AA88KMG9_NAELO/251-328	A0AA88KMG9	Eukaryota	-CH	ECH	incomplet	complet	Naegleria lovaniensis (Amoeba) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Heterolobosea (phylum), Tetramitia (clade), Eutetramitia (clade), Vahlkampfiidae (family), Naegleria (genus)	complet
+s2013	D2V3D0_NAEGR/256-334	D2V3D0	Eukaryota	-CH	ECH	incomplet	complet		complet
+s1279	A0A6A5CBS0_NAEFO/58-170	A0A6A5CBS0	Eukaryota	E--	ECH	incomplet	complet	Naegleria fowleri (Brain eating amoeba) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Heterolobosea (phylum), Tetramitia (clade), Eutetramitia (clade), Vahlkampfiidae (family), Naegleria (genus)	complet
+s2012	D2V3D0_NAEGR/135-245	D2V3D0	Eukaryota	E--	ECH	incomplet	complet		complet
+s1917	A0AA88KMG9_NAELO/131-247	A0AA88KMG9	Eukaryota	E--	ECH	incomplet	complet	Naegleria lovaniensis (Amoeba) | cellular organisms (no rank), Eukaryota (domain), Discoba (clade), Heterolobosea (phylum), Tetramitia (clade), Eutetramitia (clade), Vahlkampfiidae (family), Naegleria (genus)	complet
+s0052	A0A096PAX5_OSTTA/19-177	A0A096PAX5	Eukaryota	ECH	ECH	complet	complet	Ostreococcus tauri (Marine green alga) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Bathycoccaceae (family), Ostreococcus (genus)	complet
+s1957	A4SB46_OSTLU/68-222	A4SB46	Eukaryota	ECH	ECH	complet	complet	Ostreococcus lucimarinus (strain CCE9901) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Bathycoccaceae (family), Ostreococcus (genus), unclassified Ostreococcus (no rank), Ostreococcus sp. 'lucimarinus' (species)	complet
+s1985	C1EGC9_MICCC/102-314	C1EGC9	Eukaryota	ECH	ECH	complet	complet	Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) (Picoplanktonic green alga) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Mamiellaceae (family), Micromonas (genus)	complet
+s1986	C1MVM0_MICPC/164-316	C1MVM0	Eukaryota	ECH	ECH	complet	complet	Micromonas pusilla (strain CCMP1545) (Picoplanktonic green alga) | cellular organisms (no rank), Eukaryota (domain), Viridiplantae (kingdom), Chlorophyta (phylum), Mamiellophyceae (class), Mamiellales (order), Mamiellaceae (family), Micromonas (genus), Micromonas pusilla (species)	complet
+s0083	A0A0D3JLZ0_EMIH1/81-263	A0A0D3JLZ0	Eukaryota	ECH	ECH	complet	complet	Emiliania huxleyi (strain CCMP1516) | cellular organisms (no rank), Eukaryota (domain), Haptista (clade), Haptophyta (phylum), Prymnesiophyceae (clade), Isochrysidales (order), Noelaerhabdaceae (family), Emiliania (genus), Emiliania huxleyi (species)	complet
+s0084	A0A0D3KZC9_EMIH1/81-263	A0A0D3KZC9	Eukaryota	ECH	ECH	complet	complet	Emiliania huxleyi (strain CCMP1516) | cellular organisms (no rank), Eukaryota (domain), Haptista (clade), Haptophyta (phylum), Prymnesiophyceae (clade), Isochrysidales (order), Noelaerhabdaceae (family), Emiliania (genus), Emiliania huxleyi (species)	complet
+s0982	A0A4D9CR71_9STRA/4-102	A0A4D9CR71	Eukaryota	-CH	-CH	incomplet	incomplet		manquant
+s2222	W7TTH5_9STRA/118-255	W7TTH5	Eukaryota	ECH	ECH	complet	complet	Nannochloropsis gaditana | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Eustigmatophyceae (class), Eustigmatales (order), Monodopsidaceae (family), Nannochloropsis (genus)	complet
+s1566	A0A812SID3_9DINO/226-367	A0A812SID3	Eukaryota	ECH	ECH	complet	complet	Symbiodinium natans | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Dinophyceae (class), Suessiales (order), Symbiodiniaceae (family), Symbiodinium (genus)	complet
+s1867	A0A9P1DTS0_9DINO/67-210	A0A9P1DTS0	Eukaryota	ECH	ECH	complet	complet	Cladocopium goreaui | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Dinophyceae (class), Suessiales (order), Symbiodiniaceae (family), Cladocopium (genus)	complet
+s1568	A0A813HLF5_POLGL/85-231	A0A813HLF5	Eukaryota	ECH	ECH	complet	complet	Polarella glacialis (Dinoflagellate) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Alveolata (clade), Dinophyceae (class), Suessiales (order), Suessiaceae (family), Polarella (genus)	complet
+s1661	A0A8J5XFE8_DIALT/100-242	A0A8J5XFE8	Eukaryota	ECH	ECH	complet	complet	Diacronema lutheri (Unicellular marine alga) (Monochrysis lutheri) | cellular organisms (no rank), Eukaryota (domain), Haptista (clade), Haptophyta (phylum), Pavlovophyceae (class), Pavlovales (order), Pavlovaceae (family), Diacronema (genus)	complet
+s1633	A0A8J2S7V2_9STRA/58-196	A0A8J2S7V2	Eukaryota	ECH	ECH	complet	complet	Pelagomonas calceolata | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Pelagophyceae (class), Pelagomonadales (order), Pelagomonadaceae (family), Pelagomonas (genus)	complet
+s1634	A0A8J2SN08_9STRA/58-167	A0A8J2SN08	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2048	F0YD16_AURAN/65-208	F0YD16	Eukaryota	ECH	ECH	complet	complet	Aureococcus anophagefferens (Harmful bloom alga) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Pelagophyceae (class), Pelagomonadales (order), Pelagomonadaceae (family), Aureococcus (genus)	complet
+s1927	A0AAD7XP85_9STRA/59-197	A0AAD7XP85	Eukaryota	ECH	ECH	complet	complet	Chrysophaeum taylorii | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Pelagophyceae (class), Pelagomonadales (order), Pelagomonadaceae (family), Chrysophaeum (genus)	complet
+s1931	A0AAD8Y711_9STRA/12-138	A0AAD8Y711	Eukaryota	ECH	ECH	complet	complet	Skeletonema marinoi | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Skeletonemataceae (family), Skeletonema (genus), Skeletonema marinoi-dohrnii complex (clade)	complet
+s2108	K0SY20_THAOC/684-822	K0SY20	Eukaryota	ECH	ECH	complet	complet	Thalassiosira oceanica (Marine diatom) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Thalassiosiraceae (family), Thalassiosira (genus)	complet
+s2031	D8LLL9_ECTSI/5-144	D8LLL9	Eukaryota	ECH	ECH	complet	complet	Ectocarpus siliculosus (Brown alga) (Conferva siliculosa) | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), PX clade (clade), Phaeophyceae (class), Ectocarpales (order), Ectocarpaceae (family), Ectocarpus (genus)	complet
+s1863	A0A9N8DX47_9STRA/58-207	A0A9N8DX47	Eukaryota	ECH	ECH	complet	complet	Seminavis robusta | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Seminavis (genus)	complet
+s1866	A0A9N8EZL3_9STRA/78-228	A0A9N8EZL3	Eukaryota	ECH	ECH	complet	complet	Seminavis robusta | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Naviculales (order), Naviculaceae (family), Seminavis (genus)	complet
+s1921	A0AAD2CGX9_9STRA/76-225	A0AAD2CGX9	Eukaryota	ECH	ECH	complet	complet	Cylindrotheca closterium | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Bacillariophyceae (class), Bacillariophycidae (clade), Bacillariales (order), Bacillariaceae (family), Cylindrotheca (genus)	complet
+s1926	A0AAD3DF44_9STRA/19-164	A0AAD3DF44	Eukaryota	ECH	ECH	complet	complet	Chaetoceros tenuissimus | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Chaetocerotophycidae (subclass), Chaetocerotales (order), Chaetocerotaceae (family), Chaetoceros (genus)	complet
+s1932	A0AAD9DHG2_9STRA/66-237	A0AAD9DHG2	Eukaryota	ECH	ECH	complet	complet	Skeletonema marinoi | cellular organisms (no rank), Eukaryota (domain), Sar (clade), Stramenopiles (clade), Ochrophyta (clade), Bacillariophyta (phylum), Coscinodiscophyceae (class), Thalassiosirophycidae (subclass), Thalassiosirales (order), Skeletonemataceae (family), Skeletonema (genus), Skeletonema marinoi-dohrnii complex (clade)	complet
+s0287	A0A1C0A6F1_9FIRM/25-165	A0A1C0A6F1	Bacteria	ECH	ECH	complet	complet		complet
+s2121	L0K6I3_HALHC/25-165	L0K6I3	Bacteria	ECH	ECH	complet	complet		complet
+s1797	A0A938XT04_9FIRM/24-162	A0A938XT04	Bacteria	ECH	ECH	complet	complet		complet
+s0527	A0A1T4R4P2_9FIRM/27-167	A0A1T4R4P2	Bacteria	ECH	ECH	complet	complet		complet
+s2033	D9QSW9_ACEAZ/27-167	D9QSW9	Bacteria	ECH	ECH	complet	complet		complet
+s0923	A0A3Q9HSD0_9FIRM/29-168	A0A3Q9HSD0	Bacteria	ECH	ECH	complet	complet		complet
+s0363	A0A1G9QDH2_9FIRM/38-174	A0A1G9QDH2	Bacteria	ECH	ECH	complet	complet		complet
+s1775	A0A931AY74_9FIRM/31-167	A0A931AY74	Bacteria	ECH	ECH	complet	complet		complet
+s0431	A0A1I4KS97_9FIRM/23-160	A0A1I4KS97	Bacteria	ECH	ECH	complet	complet		complet
+s2042	E4RJG7_HALHG/23-160	E4RJG7	Bacteria	ECH	ECH	complet	complet		complet
+s2039	E3DQ82_HALPG/21-158	E3DQ82	Bacteria	ECH	ECH	complet	complet		complet
+s0819	A0A368YHA2_9FIRM/25-163	A0A368YHA2	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1624	A0A8A7KC48_9FIRM/27-164	A0A8A7KC48	Bacteria	ECH	ECH	complet	complet		complet
+s1978	B8D060_HALOH/25-162	B8D060	Bacteria	ECH	ECH	complet	complet		complet
+s0122	A0A0L0D0V5_PLAFA/48-131	A0A0L0D0V5	supprimé d'UniProt	E--	E--	incomplet	incomplet		manquant
+s0442	A0A1J1H6W7_PLARL/693-770	A0A1J1H6W7	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2161	Q7RJV4_PLAYO/887-962	Q7RJV4	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s1118	A0A509ALH6_PLABA/937-1023	A0A509ALH6	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2105	J4D7F2_THEOR/322-390	J4D7F2	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2152	Q4N569_THEPA/337-442	Q4N569	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s2154	Q4UEC6_THEAN/381-444	Q4UEC6	Eukaryota	E--	E--	incomplet	incomplet		manquant
+s0871	A0A3M0BK66_9AQUI/7-136	A0A3M0BK66	Bacteria	ECH	ECH	complet	complet		complet
+s0978	A0A497XNY9_9AQUI/2-144	A0A497XNY9	Bacteria	ECH	ECH	complet	complet		complet
+s1981	C0QPI3_PERMH/6-142	C0QPI3	Bacteria	ECH	ECH	complet	complet		complet
+s2061	F7YYH6_9THEM/26-152	F7YYH6	Bacteria	ECH	ECH	complet	complet		complet
+s0209	A0A0X1KTM7_9THEM/26-152	A0A0X1KTM7	Bacteria	ECH	ECH	complet	complet		complet
+s1963	A8F588_PSELT/26-152	A8F588	Bacteria	ECH	ECH	complet	complet		complet
+s0452	A0A1L7BDV6_9BACT/27-159	A0A1L7BDV6	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1975	B7IFP6_THEAB/27-159	B7IFP6	Bacteria	ECH	ECH	complet	complet		complet
+s0462	A0A1M5RY54_9BACT/27-160	A0A1M5RY54	Bacteria	ECH	ECH	complet	complet		complet
+s1962	A7HNK8_FERNB/26-154	A7HNK8	Bacteria	ECH	ECH	complet	complet		complet
+s2169	Q9X0G7_THEMA/24-151	Q9X0G7	Bacteria	ECH	ECH	complet	complet		complet
+s0077	A0A0C7P3S2_DEFTU/28-160	A0A0C7P3S2	Bacteria	ECH	ECH	complet	complet		complet
+s0340	A0A1G6PZ67_9BACT/28-160	A0A1G6PZ67	Bacteria	ECH	ECH	complet	complet		complet
+s1915	A0AA45C4V1_9BACT/28-160	A0AA45C4V1	Bacteria	ECH	ECH	complet	complet		complet
+s1385	A0A7G1G2N4_9BACT/28-160	A0A7G1G2N4	Bacteria	ECH	ECH	complet	complet		complet
+s2082	H2J702_MARPK/28-157	H2J702	Bacteria	ECH	ECH	complet	complet		complet
+s0101	A0A0G2Z909_9BACT/25-155	A0A0G2Z909	Bacteria	ECH	ECH	complet	complet		complet
+s1993	C5CDG9_KOSOT/25-155	C5CDG9	Bacteria	ECH	ECH	complet	complet		complet
+s0788	A0A328IRF5_9BACT/25-155	A0A328IRF5	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1225	A0A5D0SER9_9BACT/25-154	A0A5D0SER9	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0017	A0A073ISY4_9BACT/49-183	A0A073ISY4	Bacteria	ECH	ECH	complet	complet		complet
+s0283	A0A1B2I9H9_9BACT/14-152	A0A1B2I9H9	Bacteria	ECH	ECH	complet	complet		complet
+s0573	A0A1Y4GFJ5_9BACT/82-219	A0A1Y4GFJ5	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s0850	A0A3A9HJ27_9BACT/42-177	A0A3A9HJ27	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s2098	I4BUK1_ACEMN/34-171	I4BUK1	Bacteria	ECH	ECH	complet	complet		complet
+s0917	A0A3P1XXP3_9BACT/45-179	A0A3P1XXP3	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1871	A0A9Q7A5V8_9BACT/14-146	A0A9Q7A5V8	Bacteria	ECH	ECH	complet	complet		complet
+s2081	H0UKK8_9BACT/36-171	H0UKK8	Bacteria	ECH	ECH	complet	complet		complet
+s2014	D2Z3I7_9BACT/33-170	D2Z3I7	Bacteria	ECH	ECH	complet	complet		complet
+s2018	D5EGE8_AMICL/45-182	D5EGE8	Bacteria	ECH	ECH	complet	complet		complet
+s2073	G7V8B1_THELD/46-180	G7V8B1	Bacteria	ECH	ECH	complet	complet		complet
+s1057	A0A4R8MGG3_9BACT/47-184	A0A4R8MGG3	Bacteria	ECH	ECH	complet	complet		complet
+s2005	D1B690_THEAS/42-175	D1B690	Bacteria	ECH	ECH	complet	complet		complet
+s2038	E3CVW0_9BACT/47-183	E3CVW0	Bacteria	ECH	ECH	complet	complet		complet
+s1380	A0A6V8NFX8_9ACTN/55-116	A0A6V8NFX8	Bacteria	E--	ECH	incomplet	complet		complet
+s0119	A0A0K2SQJ2_LIMPI/34-171	A0A0K2SQJ2	Bacteria	ECH	ECH	complet	complet		complet
+s0082	A0A0D3J356_EMIH1/115-187	A0A0D3J356	Eukaryota	-CH	-CH	incomplet	incomplet		manquant
+s0770	A0A2X3MK37_9BACT/24-161	A0A2X3MK37	Bacteria	ECH	ECH	complet	complet		complet
+s0534	A0A1V1RI09_9ACTN/223-347	A0A1V1RI09	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1823	A0A942JTD5_9FIRM/30-154	A0A942JTD5	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1824	A0A942QK73_9ACTN/1-114	A0A942QK73	supprimé d'UniProt	ECH	ECH	complet	complet		complet
+s1455	A0A7M2YV50_9ACTN/21-150	A0A7M2YV50	Bacteria	ECH	ECH	complet	complet		complet
+s1023	A0A4R1BG77_9ACTN/20-86	A0A4R1BG77	Bacteria	E--	ECH	incomplet	complet		complet
+s1314	A0A6G8Q7E4_9ACTN/24-94	A0A6G8Q7E4	Bacteria	E--	ECH	incomplet	complet		complet
+s1312	A0A6G8PYT8_9ACTN/31-96	A0A6G8PYT8	Bacteria	E--	ECH	incomplet	complet		complet
+s2145	Q1AXJ6_RUBXD/20-90	Q1AXJ6	Bacteria	E--	ECH	incomplet	complet		complet

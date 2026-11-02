@@ -1,0 +1,29 @@
+Arbre : résultats/phase43_reduced/iqtree/duf501_red.treefile
+Feuilles : 363
+
+=== Caractere : etat du site ===
+  par SEGMENT aligne   : Counter({'complet': 277, 'incomplet': 86})
+  par PROTEINE, 2 etats (union des segments)  : Counter({'complet': 325, 'incomplet': 38})
+  par PROTEINE, 3 etats (complet/perdu/manquant) : Counter({'complet': 325, 'manquant': 35, 'perdu': 3})
+  seuil de quasi-completude : 111.6 residus alignes (90% de la mediane 124.0 des membres a triade)
+
+=== Nombre MINIMAL de changements (parsimonie de Fitch) ===
+  segment, 2 etats                 : 40 changements  (artefact de segmentation)
+  proteine, 2 etats                : 22 changements  (compte les fragments comme des pertes)
+  proteine, 3 etats, manquant = ?  : 1 changements  <-- le seul defendable
+
+Lecture : les deux premiers comptages fabriquent des evenements, le premier par la
+segmentation du HMM, le second en confondant donnee manquante et perte. Le dernier ne
+retient que les proteines quasi completes dont le site est incomplet.
+
+=== Distance topologique (aretes) entre feuilles a perte confirmee ===
+  s0309 - s0650 : 3 aretes
+  s0309 - s2198 : 3 aretes
+  s0650 - s2198 : 4 aretes
+
+=== Feuilles a perte confirmee (site incomplet, proteine quasi complete) ===
+  s0309    Eukaryota    A0A1D3CV76   motif_proteine=E--  occ=0.574 Cyclospora cayetanensis
+  s0650    Eukaryota    A0A2C6L2K9   motif_proteine=E--  occ=0.527 Cystoisospora suis
+  s2198    Eukaryota    U6GA88       motif_proteine=E--  occ=0.527 Eimeria acervulina (Coccidian parasite)
+
+TOTAL feuilles a perte confirmee : 3 ; manquantes (fragments) : 35

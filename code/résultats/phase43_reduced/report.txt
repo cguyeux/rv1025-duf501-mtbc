@@ -1,0 +1,17 @@
+Entree : 2228 sequences x 129 colonnes
+Seuil d'identite : 70% ; colonnes communes minimales : 60
+Sequences gardees d'office : 178 (ancre Rv1025, eucaryotes, non-ECH, accessions a plusieurs segments)
+Representants retenus : 363
+Branches a estimer : 723 pour 129 sites (ratio sites/branches = 0.18)
+
+Composition du jeu reduit :
+  Bacteria                       172
+  Eukaryota                      141
+  supprimé d'UniProt              50
+
+Motifs de la triade dans le jeu reduit :
+  ECH     277
+  E--      51
+  -CH      32
+  -C-       2
+  EC-       1
