@@ -69,3 +69,14 @@ Le dépôt comprend donc l'ensemble des treize fichiers supplémentaires.
 |---|---|---|
 | `submission/cover_letter.txt` | Cover letter | 429 mots. ATTENTION : elle est adressée à Archives of Microbiology et cite la revue deux fois. À réadresser à la revue retenue avant dépôt |
 | `main_fr.tex` et `main_fr.pdf` | ne pas déposer | Version française, pour l'archive du projet, sans destinataire chez l'éditeur |
+
+## 5. Correspondance avec la nomenclature « Online Resource » (Journal of Molecular Evolution, 2026-11-02)
+
+La revue appelle tout matériel supplémentaire « Online Resource N ». Le manuscrit (`main.tex`, `main_fr.tex`) n'emploie plus « Supplementary Table/Figure SN ». Les fichiers gardent leur nom ; à renommer au téléversement :
+
+| Fichier | Ancien nom | Nouveau nom |
+|---|---|---|
+| `table_S1_synteny.csv` à `table_S10_duf501_eukaryotes.tsv` | Supplementary Table S1 à S10 | Online Resource 1 à 10 (même numéro) |
+| `figureS_conservation.pdf` | Supplementary Figure S1 | Online Resource 11 |
+| `figureS_druggability.pdf` | Supplementary Figure S2 | Online Resource 12 |
+| `figureS_synteny_phylo.pdf` | Supplementary Figure S3 | Online Resource 13 |

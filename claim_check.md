@@ -1,7 +1,7 @@
 # Registre de vérification des claims
 
 **Article :** A conserved cysteine–histidine–glutamate metal site identifies DUF501 (Rv1025)… as a candidate metalloenzyme and drug target
-**Dernière vérification :** 2026-07-05
+**Dernière vérification :** 2026-11-02 (relecture de fond AA.7 du manuscrit recadré, section ci-dessous ; le tableau du 2026-07-05 porte sur l'ancienne version)
 **Méthode dominante :** re-dérivation des chiffres depuis les fichiers de résultats du projet (les claims P1 sont nos propres résultats computationnels) + sources primaires pour les faits de littérature (voir /bib-check, 16 réfs vérifiées CrossRef).
 
 ## Claims
@@ -41,3 +41,32 @@
 | P4 | 1 | 1 | 0 | 0 | 0 |
 
 **0 claim infirmé.** 2 imprécisions mineures corrigées dans le manuscrit lors du pipeline qualité (« family sequences »→« homologous sequences » ; formulation PPK2/voie polyphosphate). Tous les chiffres du manuscrit re-dérivent exactement depuis les fichiers de résultats du projet.
+
+
+## Relecture de fond AA.7 du manuscrit recadré (2026-11-02)
+
+Portée : les treize affirmations du résumé et la conclusion entière, recoupées avec les fichiers de résultats du projet (`résultats/`), l'audit AA.5 et l'API InterPro interrogée le jour même. Le tableau du 2026-07-05 ci-dessus porte sur la version avant recadrage et reste valide pour ses lignes.
+
+| # | Section | Claim | Statut | Preuve |
+|---|---------|-------|--------|--------|
+| 14 | Résumé | 4 370 protéines, 0 GO, 0 structure résolue, 0 parent de repli | confirmé | `conservation_profile.tsv`, InterPro 2026-11-02 : 4 375 protéines et 0 structure pour PF04417 (le décompte dérive de quelques unités entre versions) |
+| 15 | Résumé | essentiel dans trois genres actinobactériens | confirmé | claim 3 (Goodall 2023, texte lu) |
+| 16 | Résumé | 1 472 séquences bactériennes quasi complètes toutes porteuses, aucune substitution non conservative sur 2 228 | confirmé | `duf501_family_summary.txt` (0 substitution, 86 gaps) ; `AA5_audit_perte_eucaryote.md` (1 472/1 472 au niveau protéine). Précision ajoutée : 2 228 est un nombre de segments (2 204 protéines) et couvre environ la moitié des 4 370 membres InterPro |
+| 17 | Résumé | trois chaînes latérales convergent à distance de coordination ; AF3 holo place un métal ; prédicteur de géométrie du squelette retrouve le site ; la mutation le déplace | confirmé | claim 7 et 8 ; `metal_orthogonal/` (BioMetAll) ; `af3_mutant_out/` (déplacement de 16 à 22 Å) |
+| 18 | Résumé | bloc de gènes synténique à l'échelle du phylum « au-dessus d'une base aléatoire » | **corrigé** | `synteny_null/null_summary.json` : médiane 0,55 contre 1,00, mais p empirique 0,2045 (8 blocs aléatoires sur 43 aussi synténiques). Reformulé « dans le cinquième supérieur des blocs aléatoires » (résumé, introduction) ; « reflète une sélection » devenu « est compatible avec » (discussion) |
+| 19 | Résumé | seconde cavité conservée indépendamment | confirmé | `dca_interpretation.txt` : 80 paires inter-poches, p = 0,23 ; conservation 74 % contre fond 54 %, p = 0,005 |
+| 20 | Résumé | la coévolution ne retrouve que le repli | confirmé | `dca_summary.txt` : 58 % de contacts (×20,6) ; 16 paires éloignées sur 155 contre 112 attendues, p = 6,0 × 10⁻⁵⁹ |
+| 21 | Résumé | trois eucaryotes ont perdu le site, paire Cys-His perdue, glutamate gardé | confirmé | `AA5_audit_perte_eucaryote.md` (32 pertes candidates testées sur séquence entière, 3 confirmées, Fisher 2,7 × 10⁻⁴) |
+| 22 | Résumé | première hypothèse fonctionnelle de la famille | confirmé | claim d'antériorité de P6 : PubMed entier, 0 hit pour Rv1025 |
+| 23 | Résumé | calculatoire, soutient sans prouver l'occupation | confirmé | formulation conservée ; le texte dit que la confiance par ion ne prouve pas l'occupation (relocalisation du mutant) |
+| 24 | Résultats §3.3 | 3 830 sur 4 378 (87 %) Actinomycetota | **corrigé** | 4 378 contre 4 370 ailleurs dans le texte sans explication : relevés à deux dates. Le texte le dit désormais ; le reste ne se décrivait plus comme tel (3 830 + 264 + 179 + 24 = 4 297, il manque 81) et passe à « suivies de » |
+| 25 | Résultats §3.7 | 576 séquences sans lignée, toutes porteuses de la triade | **corrigé** | recalcul sur `duf501_family_triad.tsv` et `duf501_taxonomy.tsv` : 585 segments sans lignée, dont 576 porteurs et 9 non porteurs (fragments de 37 à 99 résidus alignés, deux au nom d'entrée d'apicomplexe) |
+| 26 | Résultats §3.7 | 75 des 86 exceptions sont des fragments (76 contre 124 résidus, p = 10⁻⁴⁶) | confirmé | recalcul : 75/86 sous le seuil de 111,6 résidus, Mann-Whitney p = 2,6 × 10⁻⁴⁶ |
+| 27 | Résultats §3.5 | accessibilité 19,8 % ouvert / 14,3 % vers le solvant ; témoins 10,1-13,9 % et 0,5-4,9 % ; Zif268 0,0 % | confirmé | `metal_accessibility.txt` |
+| 28 | Résultats §3.5 | poche druggable 361 Å3, score 0,65 ; cavité du métal 255 Å3, 22 sphères, score 0,24 | confirmé | `druggability/pocket_metalsite_map.tsv` |
+| 29 | Résultats §3.5 | poche à 74 % (67 % pondéré, p = 0,011) ; patch 92 % pondéré | confirmé | `conservation_weighted.tsv` (74,1 ; 66,5 ; 0,0111 ; 91,8) |
+| 30 | Conclusion | synténie conservée sur un phylum, pas de complexe Rv1025-DivIC, site strictement conservé chez toute séquence bactérienne quasi complète, convergence holo et prédicteur sans évolution | confirmé après la correction 18 | claims 5, 6, 16, 17 |
+
+Non recoupé à la source dans cette relecture : l'effectif efficace de 2 599 séquences pondérées par Henikoff (le script `phase25_conservation_weighted.py` l'affiche mais aucune sortie conservée ne le porte ; à régénérer si une revue le demande).
+
+Quatre défauts corrigés (18, 24, 25 et la nature du nombre 2 228), dans `main.tex` et `main_fr.tex`. Les fichiers `submission/abstract_plain.txt`, `title_plain.txt` et `rv1025_source.zip` datent de la soumission du 2026-08-25 et sont à régénérer au dépôt effectif.
